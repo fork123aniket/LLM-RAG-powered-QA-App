@@ -27,7 +27,7 @@ The below diagram shows the _architectural design_ of this ***RAG-powered LLM Ap
 - `FastAPI` (To serve production-ready LLM App)
 
 ## Data
-[***Squad***](https://huggingface.co/datasets/squad/viewer/plain_text/train?row=0) dataset is used to fine-tune [***Eleuther AI's GPT-Neo 20B***](https://huggingface.co/EleutherAI/gpt-neox-20b) LLM model, which comprises `Title`, `Question`, `Answer`, and `Context` for each of the 98.2k dataset `IDs`.
+[***Squad***](https://huggingface.co/datasets/squad/viewer/plain_text/train?row=0) dataset is used to fine-tune [***Eleuther AI's GPT-Neo 20B***](https://huggingface.co/EleutherAI/gpt-neox-20b) LLM model, which comprises `Title`, `Question`, `Answer`, and `Context` for each of the `98.2k` dataset `IDs`.
 
 ## LLM Training and Serving
 - The `Fine-Tuning` process for `GPT-Neo` LLM model can be found in `finetune.py` file.
