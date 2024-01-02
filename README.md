@@ -9,7 +9,7 @@ This repo implements an ***Retrival Augmented Generation (RAG)-powered LLM-based
 
 The below diagram shows the _architectural design_ of this ***RAG-powered LLM App***:
 
-
+![LLM App Architecture](https://github.com/fork123aniket/LLM-RAG-powered-QA-App/assets/92912434/31eb3c61-b374-4a3a-b35e-6dab3fc42a00)
 
 ## Requirements
 - `Python`
@@ -39,17 +39,4 @@ The below diagram shows the _architectural design_ of this ***RAG-powered LLM Ap
 ## App Usage
 To learn more about how to use this ***LLM RAG-powered QA App***, consider watching the following video:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[RAG-powered LLM App.webm](https://github.com/fork123aniket/LLM-RAG-powered-QA-App/assets/92912434/c003342c-c337-44d1-a29d-b6c554eaabf9)
