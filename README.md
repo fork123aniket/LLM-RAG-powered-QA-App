@@ -1,6 +1,6 @@
 # End-to-End LLM-based Scalable RAG-powered QA App
 
-This repo implements an ***Retrival Augmented Generation (RAG)-powered LLM-based Open Generative (or Extractive) context-aware Question-Answering (QA)*** App that:
+This repo implements an ***Retrieval Augmented Generation (RAG)-powered LLM-based Open Generative (or Extractive) context-aware Question-Answering (QA)*** App that:
 
 - Takes as input a new `query` (or `question`);
 - Implements ***vector similarity search*** within the ***embedding space*** by seeking ***relevant contexts*** corresponding to the incoming `query` in the ***vector database***;
@@ -23,7 +23,7 @@ The below diagram shows the _architectural design_ of this ***RAG-powered LLM Ap
 - `Numpy`
 - `Scikit-Learn`
 - `Deta` (To access Deta Vector Database)
-- `Langchain`
+- `LangChain`
 - `FastAPI` (To serve production-ready LLM App)
 
 ## Data
