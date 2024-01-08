@@ -1,11 +1,13 @@
 # End-to-End LLM-based Scalable RAG-powered QA App
 
-This repo implements an ***Retrieval Augmented Generation (RAG)-powered LLM-based Open Generative (or Extractive) context-aware Question-Answering (QA)*** App that:
+This repo implements a _production-ready, scalable_ ***Retrieval Augmented Generation (RAG)-powered LLM-based Open Generative (or Extractive) context-aware Question-Answering (QA)*** App that:
 
 - Takes as input a new `query` (or `question`);
 - Implements ***vector similarity search*** within the ***embedding space*** by seeking ***relevant contexts*** corresponding to the incoming `query` in the ***vector database***;
 - Passes the ***relevant contexts*** as well as the `input query` to LLM;
 - LLM then produces the `answer` to the input `query` while being aware of the ***relevant contexts*** related to the requested `query`.
+
+This project also includes `Fine-tuning` a `20B` parameters **_Large Language Model (LLM)_** in a multi-GPU cluster environment by leveraging the _distributed training_ paradigm. Moreover, this repo develops _scalable_ major _ML workloads_ for `contexts` (`load`, `embed`, and `index` the `contexts` in the _vector database_) across multiple workers with different compute resources and serves the _LLM App_ in a highly robust and scalable manner.
 
 The below diagram shows the _architectural design_ of this ***RAG-powered LLM App***:
 
