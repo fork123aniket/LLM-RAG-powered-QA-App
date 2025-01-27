@@ -1,4 +1,4 @@
-# End-to-End LLM-based Scalable RAG-powered QA App
+# 🚀End-to-End LLM-based Scalable RAG-powered QA App
 
 This repo implements a _production-ready, scalable_ ***Retrieval Augmented Generation (RAG)-powered LLM-based Open Generative (or Extractive) context-aware Question-Answering (QA)*** App that:
 
